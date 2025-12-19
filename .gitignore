@@ -1,0 +1,59 @@
+# Dataset - exclude all dataset files
+Dataset/
+**/Dataset/
+
+# Models - exclude all model files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pb
+*.tflite
+Models/
+**/Models/
+Results_Run_*/
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+
+# Reports and documents
+*.pdf
+*.docx
+*.xlsx
+*.csv
+!requirements.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+
